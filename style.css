@@ -1,0 +1,171 @@
+h6{
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+h5{
+  color: white;
+  font-size: 42px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+h4{
+  font-size: 34px;
+  text-transform: capitalize;
+  font-weight: bold;
+}
+h3{
+  text-transform: capitalize;
+  color: white;
+  margin-top: 20px;
+}
+h2{
+  font-size: 22px;
+}
+hr{
+  background-color: yellow;
+  height: 2px;
+}
+
+.navbar-brand{
+  font-family: 'moon-dance';
+  font-size: 32px;
+  font-weight: bold;
+}
+.nav-link{
+  text-transform: capitalize;
+}
+.tombol{
+  color: white;
+  padding: 10px 15px;
+  text-transform: capitalize;
+}
+/* carousel header */
+.carousel img{
+  height: 500px;
+}
+.carousel ol li{
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
+.carousel-caption{
+  margin-bottom: 100px;
+}
+.carousel h6::after,
+.carousel h6::before{
+  content: '';
+  width: 40px;
+  height: 3px;
+  background-color: white;
+  display: inline-block;
+  vertical-align: middle;
+}
+/* menu */
+.menu{
+  text-align: center;
+  background-color: rgb(221, 223, 220);
+  padding: 50px 0px;
+}
+.menu .nav-pills .nav-link{
+  border-radius: 100px;
+}
+.menu .nav-pills .nav-link.active{
+  background-color: rgb(221, 210, 77);
+}
+.star{
+  color: rgb(191, 190, 56);
+}
+/* features */
+.features{
+  /* background-image: url("images/cover2.jpg"); */
+  background-image: linear-gradient(rgb(41, 52, 52,0.6), rgb(79, 106, 78,0.6)),url('images/cover2.jpg');
+  background-size: 100% 100%;
+  height: auto;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 100px 0px;
+}
+.panel{
+  border: 1px solid rgb(115, 121, 39);
+  padding: 30px 20px;
+  margin: 5px;
+}
+.panel p{
+  color: rgb(47, 45, 34);
+}
+.ikon{
+  background-color: rgb(245, 227, 13);
+  padding: 15px;
+}
+/* team */
+.team{
+  text-align: center;
+  padding-top: 50px;
+}
+.team-member{
+  border: ridge;
+  padding: 20px;
+  margin: 0px 10px;
+}
+.team-member img{
+  box-shadow: -10px -10px rgb(191, 190, 56);
+  border-radius: 50%;
+  max-width: 140px;
+}
+/* review */
+.review{
+  background-image: linear-gradient(rgb(41, 52, 52,0.6), rgb(79, 106, 78,0.6)),url('images/cover3.jpg');
+  background-size: cover;
+  height: auto;
+  margin-top: 100px;
+  text-align: center;
+  padding: 100px 20px;
+}
+.review-content{
+  background-color: white;
+  padding: 50px;
+}
+.review-content img{
+  height: 90px;
+}
+.intro-text h3{
+  max-width: 600px;
+}
+.kutipan{
+  color: rgb(191, 190, 56);
+  font-size: 24px;
+}
+/* kontak */
+.kontak{
+  background-color: rgb(221, 223, 220);
+  padding: 100px;
+  text-align: center;
+}
+/* footer */
+.footer{
+  padding: 50px;
+  background-image: linear-gradient(rgb(41, 52, 52,0.6), rgb(79, 106, 78,0.6)),url('images/cover2.jpg');
+  background-size: 100% 100%;
+  /* background-repeat: no-repeat; */
+  height: auto;
+  color: white;
+}
+.footer .kiri p{
+  max-width: 400px;
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  h6{
+      color: white;
+      font-size: 28px;
+      text-transform: uppercase;
+  }
+  .carousel img{
+    height: 600px;
+  }
+  .review-content img{
+    height: 100px;
+  }
+ }
